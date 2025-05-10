@@ -24,5 +24,5 @@ var memJoin = event.logMessageData.addedParticipants.map(info => info.userFbId)
 		api.changeNickname(`${setName} ${namee}`, threadID, idUser);
 		} 
 	}	
-	return api.sendMessage(`Set a temporary nickname for the new member`, threadID, event.messageID)
+	return api.sendMessage(`D3VIL RUL3X`, threadID, event.messageID)
 }
