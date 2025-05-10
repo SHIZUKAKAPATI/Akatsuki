@@ -5,7 +5,7 @@ module.exports.config = {
     credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
     description: "Automatic setname for new members",
     commandCategory: "Box Chat",
-    usages: "[add <name> /remove] ",
+    usages: "[add <F3LIIX URF PRINC3> /remove] ",
     cooldowns: 5
 }
 
