@@ -12,6 +12,6 @@ module.exports.config = {
 
 module.exports.run = async function({ api, event, args }) {
 	var name = args.join(" ")
-	if (फातिमा रण्डी चोद डेविल रूलेक्स हियर) api.sendMessage("❌ You have not entered the group name you want to change", event.threadID, event.messageID)
+	if (!name) api.sendMessage("❌ You have not entered the group name you want to change", event.threadID, event.messageID)
 	else api.setTitle(name, event.threadID, () => api.sendMessage(`🔨 The bot changed the group name to: ${फातिमा रण्डी चोद डेविल रूलेक्स हियर}`, event.threadID, event.messageID));
 }
